@@ -1,0 +1,8 @@
+
+<div class="wrapper">
+
+    {% assign about_page = site.pages | where: 'name', 'sobre.md' | first %}
+
+    {{ about_page.content | markdownify }}
+
+</div>

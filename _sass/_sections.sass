@@ -1,0 +1,19 @@
+%section-spacing
+    padding-top: $spacing-unit * 2
+    padding-bottom: $spacing-unit * 2
+
+.section-
+
+    &hero
+        @extend %section-spacing
+    &github
+        @extend %section-spacing
+    &features
+        li
+            font-size: .95em
+        svg
+            max-width: 80%
+            +media-query($on-palm)
+                max-width: 60%
+    &about
+        @extend %section-spacing
