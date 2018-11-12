@@ -1,16 +1,20 @@
+$header-height: 56px
+    
 .site-header
-    min-height: 56px
+    min-height: $header-height
     position: relative
 
 .site-title
     float: left
-    line-height: 56px
-    img
+    line-height: $header-height
+    svg
         display: inline-block
+        width: auto
+        height: .85em
 
 .site-nav 
     float: right
-    line-height: 56px
+    line-height: $header-height
 
     .menu-icon 
         display: none

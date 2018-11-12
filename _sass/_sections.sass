@@ -6,14 +6,38 @@
 
     &hero
         @extend %section-spacing
-    &github
-        @extend %section-spacing
+        padding-top: 10%
+        padding-bottom: 10%
+        position: relative
+        overflow: hidden
+        .hero-background
+            &, svg
+                position: absolute
+                top: 0
+                left: 0
+                width: auto
+                height: 100%
+            +media-query($on-palm)
+                left: -15%
+        .wrapper
+            margin-left: 30%
+            transform: translateZ(1px)
+            z-index: 1
+            +media-greater($on-palm)
+                margin-left: 50%
+                font-size: 2.6vw
+        .hero-title, .hero-excerpt
+            max-width: 25em
+            text-shadow: 0 0 3px $brand-color, 0 0 3px $brand-color, 0 0 3px $brand-color, 0 0 3px $brand-color
+
     &features
+        text-align: center
         li
             font-size: .95em
         svg
             max-width: 80%
             +media-query($on-palm)
                 max-width: 60%
+
     &about
         @extend %section-spacing

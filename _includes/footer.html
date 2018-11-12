@@ -2,9 +2,35 @@
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">{{ site.title }}</h2>
+    <div data-grid="spacing">
 
-    <p>{{ site.description }}</p>
+      <div data-cell="1of4" data-grid="row spacing">
+        <div data-cell="shrink" class="footer-site-icon">
+          {% include svg/favicon.svg %}
+        </div>
+  
+        <div data-cell="1of4">
+          <h2 class="footer-heading">{{ site.title }}</h2>
+          <p class="footer-description">{{ site.description }}</p>
+        </div>
+      </div>
+
+      <div data-cell="shrink" class="footer-contact">
+        <p>
+          <a href="tel:{{ site.tel.number }}" data-grid="center small-spacing">
+            <span data-cell="shrink" class="footer-contact-icon">{% include svg/tel.svg %}</span>
+            <span>{{ site.tel.label }}</span>
+          </a>
+        </p>
+        <p>
+          <a href="mailto:{{ site.email }}" data-grid="center small-spacing">
+            <span data-cell="shrink" class="footer-contact-icon">{% include svg/email.svg %}</span>
+            <span>{{ site.email }}</span>
+          </a>
+        </p>
+      </div>
+
+    </div>
 
   </div>
 
