@@ -1,0 +1,22 @@
+
+<div data-grid="wrap around">
+
+    {% for categoria in site.categorias %}
+
+        <article
+            class="categoria-item"
+            data-cell="1of3 fill"
+            data-grid="column center"
+        >
+
+            <div class="categoria-img" data-cell="shrink">
+                <img src="{{ categoria.image }}" alt="{{ categoria.title }}">
+            </div>
+
+            <h4 class="categoria-title">{{ categoria.title }}</h4>
+
+        </article>
+    
+    {% endfor %}
+
+</div>

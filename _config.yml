@@ -22,6 +22,11 @@ defaults:
     type: posts
   values:
     layout: post
+- scope:
+    path: ''
+    type: categorias
+  values:
+    image: 
 description: 'Criamos um Projeto em 3D personalizado da sua casa ou  empresa seguindo
   as suas orientações e o seu estilo.
 
