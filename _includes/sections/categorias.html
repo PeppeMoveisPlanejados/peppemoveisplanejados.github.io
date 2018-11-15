@@ -1,7 +1,8 @@
+{% assign categorias = site.categorias | sort: 'position' %}
 
 <div data-grid="wrap around">
 
-    {% for categoria in site.categorias %}
+    {% for categoria in categorias %}
 
         <article
             class="categoria-item"
