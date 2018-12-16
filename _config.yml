@@ -3,7 +3,7 @@ title: Peppe Móveis Planejados
 timezone: America/Sao_Paulo
 collections:
   categorias:
-    title: Categorias
+    title: Destaques
     output: true
   posts:
     title: Posts
