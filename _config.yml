@@ -31,17 +31,17 @@ defaults:
   values:
     image: 
     galeria images:
-    -
+    - 
 - scope:
     path: ''
     type: produtos
   values:
-    preco:
-    pagseguro:
-    construcard:
+    preco: 
+    pagseguro: 
+    construcard: 
     image: 
     galeria images:
-    -
+    - 
 description: 'Criamos um Projeto em 3D personalizado da sua casa ou  empresa seguindo
   as suas orientações e o seu estilo.
 
