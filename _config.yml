@@ -52,7 +52,7 @@ email: novacasaplanejada@gmail.com
 baseurl: 
 url: https://peppemoveisplanejados.com.br
 markdown: kramdown
-permalink: pretty/
+permalink: pretty
 sass:
   style: compressed
 exclude:
@@ -61,3 +61,4 @@ exclude:
 - gulpfile.js
 - npm-debug.log
 - package.json
+- CNAME
