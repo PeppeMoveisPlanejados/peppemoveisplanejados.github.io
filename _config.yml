@@ -49,7 +49,7 @@ tel:
   number: "+5513981101762"
   label: "(13) 98110-1762"
 email: novacasaplanejada@gmail.com
-baseurl: ''
+baseurl: 
 url: https://peppemoveisplanejados.com.br
 markdown: kramdown
 permalink: pretty/
