@@ -3,7 +3,7 @@ title: Peppe Móveis Planejados
 nav-title: Sobre nós
 ---
 
-Oi.
+
 
 Criamos um Projeto em 3D personalizado da sua casa ou empresa seguindo as suas orientações e o seu estilo.
 
